@@ -1,0 +1,87 @@
+import * as Yup from "yup";
+const AddEditSchema = [
+  {
+    key: "11",
+    name: "monthly",
+    type: "number",
+    placeholder: "Monthly Rent",
+    button: "  Same as above",
+    styleContact: "rounded-lg",
+    label: "Monthly Rent *",
+    validationSchema: Yup.string().required("Monthly Rent is required"),
+    initialValue: "",
+
+    required: true,
+  },
+  {
+    key: "11",
+    name: "security",
+    type: "number",
+    button: "  Same as above",
+    placeholder: "Security Deposit",
+    styleContact: "rounded-lg",
+    label: "Security Deposit *",
+    validationSchema: Yup.string().required("Security is required"),
+    initialValue: "",
+
+    // icon: <AddLocationAlt />,
+    required: true,
+  },
+  {
+    key: "11",
+    name: "maintenance",
+    type: "number",
+    placeholder: "Maintenance Fee",
+    button: "  Same as above",
+    styleContact: "rounded-lg",
+    label: "Maintenance Fee *",
+    validationSchema: Yup.string().required("Security is required"),
+    initialValue: "",
+
+    // icon: <AddLocationAlt />,
+    required: true,
+  },
+  {
+    key: "11",
+    name: "electricity",
+    type: "number",
+    placeholder: "Electricity Bill",
+    button: "  Same as above",
+    styleContact: "rounded-lg",
+    label: "Electricity Bill *",
+    validationSchema: Yup.string().required("Electricity Bill is required"),
+    initialValue: "",
+
+    // icon: <AddLocationAlt />,
+    required: true,
+  },
+  {
+    key: "11",
+    name: "water",
+    type: "number",
+    button: "  Same as above",
+    placeholder: "Water Bill",
+    styleContact: "rounded-lg",
+    label: "Water Bill *",
+    validationSchema: Yup.string().required("Water Bill is required"),
+    initialValue: "",
+
+    // icon: <AddLocationAlt />,
+    required: true,
+  },
+  {
+    key: "11",
+    name: "others",
+    type: "number",
+    placeholder: "Others Fee",
+    button: "  Same as above",
+    styleContact: "rounded-lg",
+    label: "Others Fee *",
+    validationSchema: Yup.string().required("Others Fee is required"),
+    initialValue: "",
+
+    // icon: <AddLocationAlt />,
+    required: true,
+  },
+];
+export default AddEditSchema;

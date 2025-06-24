@@ -1,0 +1,14 @@
+export { default as RegisterLottie } from "./registerLottie.json";
+export { default as NotFound } from "./404.json";
+export { default as NotFoundOne } from "./404Lottie.json";
+export { default as NotificationLottie } from "./notification.json";
+export { default as ContactUs } from "./contactUs.json";
+export { default as EmptyLottie } from "./empty.json";
+export { default as PropertyNotFound } from "./propertynotfound.json";
+export { default as collectRent } from "./collectRent.json";
+export { default as emptyProperty } from "./emptyData.json";
+export { default as emptyBox } from "./emptyBox.json";
+export { default as successfully } from "./91001-success.json";
+export { default as EmptyPropertyDetails } from "./property not found.json";
+export { default as Payments } from "./Payment.json";
+export { default as EmptyHomeSearch } from "./EmptySearch.json";

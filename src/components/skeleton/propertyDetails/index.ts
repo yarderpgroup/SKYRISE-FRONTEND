@@ -1,0 +1,12 @@
+export { default as BasicInfoSkeleton } from "./BasicInfoSkeleton";
+export { default as PhotoSkeleton } from "./PhotoSkeleton";
+export { default as HomePriceSkeleton } from "./HomePriceSkeleton";
+export { default as OtherSkeleton } from "./OtherSkeleton";
+export { default as PriceDetailsSkeleton } from "./PriceDetailsSkeleton";
+export { default as UploadPhotoSkeleton } from "./UploadPhotoSkeleton";
+export { default as ParkingSkeleton } from "./ParkingSkeleton";
+export { default as InteriorDetailsSkeleton } from "./InteriorDetailsSkeleton";
+export { default as PropertySkeleton } from "./PropertySkeleton";
+export { default as PropertyBasicSkeleton } from "./PropertyBasicSkeleton";
+export { default as AdminPhotoSkeleton } from "./AdminPhotoSkeleton";
+export { default as TermSkeleton } from "./TermSkeleton";
