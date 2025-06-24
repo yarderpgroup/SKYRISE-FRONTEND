@@ -3,8 +3,8 @@ import { APIFunction } from "types/api";
 
 import { getLocalStorageItem } from "utils";
 // export const BASE_URL = `http://192.168.29.123:8000/api/v1`;
-export const BASE_URL = `http://localhost:8000/api/v1`;
-// export const BASE_URL = `https://skyrise-realestate.gorillayard.com/api/v1`;
+// export const BASE_URL = `http://localhost:8000/api/v1`;
+export const BASE_URL = `https://skyrise-backend-1.onrender.com/api/v1`;
 
 export const post: APIFunction = async ({
   path,
